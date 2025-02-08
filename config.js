@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~o8wAFDCA#LcoFwYfB8wR4hw783sc92lCcoW8qOhR9TzXN2ZTDe_4",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto like or react on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "✦sʜᴀʙᴀɴ-sᴏʙx-ᴍᴅ✦",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "YOUR STATUS SEEN BY FIXO",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -27,11 +27,11 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923059395959",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94711767300",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "Mʀ✰Sʜᴀʙᴀɴ",
+OWNER_NAME: process.env.OWNER_NAME || "FIXO",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sʜᴀʙᴀɴ*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜰɪxᴏ*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/sgxywmW/shaban-sobx-md.jpg",
 // add img for alive msg
@@ -39,7 +39,7 @@ LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *✦sʜᴀʙᴀɴ-sᴏʙx-ᴍ
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
-AUTO_REACT: process.env.AUTO_REACT || "false",
+AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
